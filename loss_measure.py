@@ -75,7 +75,7 @@ def loss_measure(scenario_config, model, data_list, num_data):
 def give_model_parameter(phi, model):
     # model = IGCNet(scenario_config).to(scenario_config.device)
     state_dict = model.state_dict()
-    #提取原网络的权重和偏置参数
+    # Extract the weights and bias parameters of the network
     w11 = state_dict['conv.mlp1.0.0.weight']
     b11 = state_dict['conv.mlp1.0.0.bias']
     

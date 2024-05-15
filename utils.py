@@ -49,7 +49,7 @@ class init_parameters():
         self.K_factor_DT = args.K_factor_DT
         
         
-        #数据集设置
+       
         self.S = args.S # number of context variables in one time step
         self.T = args.T # total number of time steps
         self.train_layouts_PT = args.Nt 

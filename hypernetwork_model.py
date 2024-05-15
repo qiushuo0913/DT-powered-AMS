@@ -9,7 +9,7 @@ Description: AMS mapping (MLP)
 import torch
 import torch.nn as nn
 
-# 定义模型
+
 class hyperNetwork(nn.Module):
     def __init__(self, input_size, hidden_size1, hidden_size2, output_size):
         super(hyperNetwork, self).__init__()

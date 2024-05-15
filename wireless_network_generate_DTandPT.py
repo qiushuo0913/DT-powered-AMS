@@ -142,10 +142,7 @@ def CSI_DT_generate(general_para, dis, train_layouts):
 
 
 def sample_generate(general_para, number_of_layouts):
-    # number_of_layouts:context的数量
-    # train_layouts：一个context下的样本数量
-    # print("<<<<<<<<<<<<<{} layouts: {}>>>>>>>>>>>>".format(
-    #     number_of_layouts, general_para.setting_str))
+    
 
     dists = []
     CSIs_DT = []

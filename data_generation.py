@@ -13,7 +13,7 @@ import wireless_network_generate_DTandPT as wg
 import utils as ut
 
 
-#数据生成
+#generate data
 def generate_T_dataPTandDT(scenario_config):
     # generate number T c_t, their corresponding DT and PT data, and context variable
     dists, CSIs_PT, CSIs_DT, CSIs_DT_compare = wg.sample_generate(scenario_config, scenario_config.T)
@@ -36,24 +36,6 @@ def generate_T_dataPTandDT(scenario_config):
     
     return CSIs_PT, data_list_PT, data_list_DT, data_list_DT_compare, context_vector_list
 
-
-
-# def generate_S_dataDT(scenario_config):
-#     #产生S组c_s的DT端数据
-#     dists, _, CSIs_DT, _ = wg.sample_generate(scenario_config, scenario_config.S)
-
-    
-#     CSIs_DT_real, CSIs_DT_imag = np.real(CSIs_DT), np.imag(CSIs_DT)
-
-    
-#     norm_CSIs_DT_real = ut.normalize_data(CSIs_DT_real,scenario_config.S*scenario_config.train_layouts_DT, scenario_config)
-#     norm_CSIs_DT_imag = ut.normalize_data(CSIs_DT_imag,scenario_config.S*scenario_config.train_layouts_DT, scenario_config)
-
-
-#     #每个t下用的是S*num_H个数据
-#     data_list_DT, context_vector_list = ut.proc_data(CSIs_DT, dists, norm_CSIs_DT_real, norm_CSIs_DT_imag, scenario_config.train_K, 1, scenario_config)
-    
-#     return  data_list_DT, context_vector_list
 
 
 def generate_S_dataDT_multi_update(scenario_config):

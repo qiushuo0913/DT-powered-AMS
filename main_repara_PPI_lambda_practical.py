@@ -170,7 +170,7 @@ if __name__ == '__main__':
         
         for (index, data_PT) in enumerate(data_loader_PT):
             data_PT = data_PT.to(scenario_config.device)
-            #固定抽取c_t
+            
             context = context_vector_t[index]
             context = torch.from_numpy(context)
             mean_phi = eta(context)
@@ -190,7 +190,7 @@ if __name__ == '__main__':
     
         for (index, data_DT) in enumerate(data_loader_DT):
             data_DT = data_DT.to(scenario_config.device)
-            #固定抽取c_t
+            
             context = context_vector_t[index]
             context = torch.from_numpy(context)
             mean_phi = eta(context)
@@ -505,7 +505,7 @@ if __name__ == '__main__':
                 
                 gamma *= 1
                 
-                #调整window length (from 40 to 5)
+                # adjust window length (from 40 to 5)
                 args.window_length *= np.exp((np.log(5)-np.log(40))/10)
                 args.window_length  = int(np.floor(args.window_length))
                 

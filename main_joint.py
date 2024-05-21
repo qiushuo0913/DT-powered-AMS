@@ -2,7 +2,7 @@
 Author: Qiushuo Hou
 Emial: qshou@zju.edu.cn
 FilePath: /DT_powered_AMS_code/main_joint.py
-Description: conventional GNN online training --- "conventional" in the simulation
+Description: conventional continual learning on GNN with online training --- "CL" in the simulation
 '''
 
 #%%

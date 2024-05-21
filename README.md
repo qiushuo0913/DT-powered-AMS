@@ -1,4 +1,4 @@
-# DT-powered-AMS
+# Automatic AI Model Selection for Wireless Systems: Online Learning via Digital Twinning
 This repository contains code for "Automatic AI Model Selection for Wireless Systems: Online Learning via Digital Twinning"  
 
 ![O-RAN](https://github.com/qiushuo0913/DT-powered-AMS/blob/main/image/summary1.png)  

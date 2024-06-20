@@ -1,5 +1,5 @@
 # Automatic AI Model Selection for Wireless Systems: Online Learning via Digital Twinning
-This repository contains code for "Automatic AI Model Selection for Wireless Systems: Online Learning via Digital Twinning" 
+This repository contains code for "Automatic AI Model Selection for Wireless Systems: Online Learning via Digital Twinning" -- Qiushuo Hou, Matteo Zecchin, Sangwoo Park, Yunlong Cai, Guanding Yu, Kaushik Chowdhury, and Osvaldo Simeone
 
 [![arXiv](https://img.shields.io/badge/stat.ML-arXiv%3A2404.11350-B31B1B.svg)](https://arxiv.org/pdf/2404.11350)
 
